@@ -111,14 +111,3 @@ b2_filt$estu_mcpio_reside <- if_else(is.na(b2_filt$estu_mcpio_reside),"Rural","C
 G <- prop.table(table(b2_filt$estu_mcpio_reside))*100
 barplot(G, ylim = c(0,90), col=c("cornsilk4","cornsilk2"), ylab = "Porcentaje", xlab = "Área de residencia")
 ```
-
-
-
-
-
-
-
-
-
-
-
